@@ -1,0 +1,216 @@
+.featuredProjects {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.featuredProjectsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-21xl);
+}
+.ecommerceWebsite {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 30px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.image2Icon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  object-fit: cover;
+}
+.image8Icon {
+  height: 40px;
+  width: 60px;
+}
+.image6Icon,
+.image8Icon,
+.image9Icon {
+  position: relative;
+  object-fit: cover;
+}
+.image9Icon {
+  height: 17px;
+  width: 60px;
+}
+.image6Icon {
+  align-self: stretch;
+  height: 36.6px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.eCommerceWebsite,
+.image6Wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.image6Wrapper {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.eCommerceWebsite {
+  width: 271px;
+  flex-direction: row;
+  align-items: center;
+  gap: 0 10px;
+}
+.developedAnEcommerce {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-dimgray);
+}
+.featuredProjects1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 27px 0;
+  max-width: 100%;
+}
+.checkItOut {
+  position: relative;
+  line-height: 24px;
+}
+.linkProjectLink {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-steelblue);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs) 0 var(--padding-7xs) var(--padding-9xs);
+  mix-blend-mode: normal;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.linkProjectLinkWrapper {
+  width: 99px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--color-steelblue);
+}
+.miniOperatingSystem {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  text-decoration: underline;
+  line-height: 30px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.vectorIcon {
+  height: 58.4px;
+  width: 51.9px;
+  position: relative;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.madeAnOperating {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-dimgray);
+}
+.miniOperatingSystemInTermiParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 27px 0;
+  max-width: 100%;
+}
+.checkItOut1 {
+  position: relative;
+  line-height: 24px;
+  cursor: pointer;
+}
+.linkProjectLink1,
+.sectionProjects {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  mix-blend-mode: normal;
+}
+.linkProjectLink1 {
+  width: 99px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-steelblue);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-7xs) 0 var(--padding-7xs) var(--padding-9xs);
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: var(--font-size-base);
+  color: var(--color-steelblue);
+}
+.sectionProjects {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-50xl) var(--padding-xl);
+  gap: 51px 0;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-nunito-sans);
+}
+@media screen and (max-width: 950px) {
+  .featuredProjects {
+    font-size: var(--font-size-13xl);
+    line-height: 32px;
+  }
+  .sectionProjects {
+    padding-top: var(--padding-26xl);
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .sectionProjects {
+    gap: 51px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .featuredProjects {
+    font-size: var(--font-size-5xl);
+    line-height: 24px;
+  }
+  .ecommerceWebsite,
+  .miniOperatingSystem {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .sectionProjects {
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}

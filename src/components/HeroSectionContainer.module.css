@@ -1,0 +1,137 @@
+.rehanTariq {
+  position: relative;
+  line-height: 100px;
+  display: inline-block;
+  max-width: 100%;
+}
+.frontEndWebDeveloper {
+  position: relative;
+  font-size: var(--font-size-18xl-3);
+  line-height: 40px;
+}
+.openSourceContribsCertifica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px 0;
+  max-width: 100%;
+}
+.frameDivDoronOpenSourceCo {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.aboutMe1,
+.certifications,
+.openSourceContributions,
+.projects,
+.skills {
+  position: relative;
+  line-height: 30px;
+  cursor: pointer;
+}
+.foundationOfCyberSecurity {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 24px;
+}
+.rehanstudio323gmailcom {
+  position: relative;
+  line-height: 24px;
+  white-space: nowrap;
+}
+.aboutMeOpenSourceContribs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi) 0 0;
+  text-align: center;
+  font-size: var(--font-size-base-1);
+}
+.aboutMe,
+.frameGithubContributedToGo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGithubContributedToGo {
+  gap: 16px 0;
+  text-align: left;
+  font-size: var(--font-size-lgi-5);
+}
+.aboutMe {
+  width: 1160px;
+  gap: 27px 0;
+  flex-shrink: 0;
+}
+.downIcon {
+  width: 47px;
+  height: 37.3px;
+  position: relative;
+}
+.heroSection {
+  align-self: stretch;
+  background: linear-gradient(90deg, #2b32b2, #1488cc);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-164xl) var(--padding-2xl) var(--padding-130xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  gap: 119px 0;
+  mix-blend-mode: normal;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-68xl-5);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 950px) {
+  .rehanTariq {
+    font-size: var(--font-size-25xl);
+    line-height: 60px;
+  }
+  .frontEndWebDeveloper {
+    font-size: var(--font-size-11xl);
+    line-height: 32px;
+  }
+  .heroSection {
+    padding-top: var(--padding-100xl);
+    padding-bottom: var(--padding-78xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .foundationOfCyberSecurity {
+    flex-wrap: wrap;
+  }
+  .heroSection {
+    gap: 119px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rehanTariq {
+    font-size: var(--font-size-7xl);
+    line-height: 40px;
+  }
+  .frontEndWebDeveloper {
+    font-size: var(--font-size-3xl);
+    line-height: 24px;
+  }
+  .heroSection {
+    gap: 119px 0;
+    padding-top: var(--padding-58xl);
+    padding-bottom: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+}
